@@ -1,0 +1,391 @@
+body {
+  background-color: #9933ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: " arieal";
+  font-size: 1.25em;
+  line-height: 1.222em;
+  text-align: left;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+.center {
+  margin: 0 auto; /*centraliza o centeúdo*/
+  width: 90%;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearflix:after {
+  clear: both;
+}
+img,
+picture,
+video,
+embed {
+  max-width: 100%;
+}
+h1,
+h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 60px;
+}
+h3 {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 38px;
+}
+p {
+  font-family: "Times New Roman";
+}
+a,
+a:link,
+a:visited {
+  color: #0a4710;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-shadow: none;
+}
+header h1 a {
+  width: 50%;
+  height: 50px;
+  float: left;
+  display: block;
+  text-indent: -9999;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -25px;
+  margin-right: -10px;
+}
+header {
+  width: 100%;
+  height: 20px;
+}
+nav {
+  float: right;
+  margin-top: 75px;
+  text-align: right;
+  width: 66%;
+}
+nav li {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
+nav ul li a {
+  margin-right: 30px;
+  display: block;
+  width: 20%;
+  background-color: #9ef593;
+  float: right;
+}
+nav a:link,
+nav a:visited {
+  color: #0a4710;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Verdana";
+  letter-spacing: -2px;
+  line-height: 26px;
+  display: inline-block;
+  text-align: center;
+}
+nav a.ativo:link,
+nav a hover {
+  color: #0a4710;
+}
+h2 {
+  font-size: 2.66em;
+}
+.sistema {
+  height: 290px;
+  text-align: center;
+  width: 100%;
+}
+h2 span {
+  font-size: 3.33em;
+  font-family: "forte";
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 60px;
+  color: black;
+}
+span {
+  display: block;
+  width: 20%;
+  background-color: white;
+  float: right;
+}
+.sistema h3 {
+  margin: 0 auto;
+  width: 75%;
+}
+.container {
+  width: 100%;
+  height: 417px;
+  padding: 30px;
+  max-width: 100%;
+  background-color: #fcda92;
+}
+
+.sobreMim,
+.formacaoAcademica,
+.portifolio {
+  float: left;
+  /*para ficar relativo ao tamanho da tela*/
+  position: relative;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  font-family: "times new ronan";
+}
+.sobreMim,
+.formacaoAcademica,
+.portifolio {
+  margin-right: 12px;
+}
+.sobreMim {
+  background-color: #fcda92;
+}
+
+.formacaoAcademica {
+  background-color: #fcda92;
+}
+.portifolio {
+  background-color: #fcda92;
+}
+.container h3 {
+  color: black;
+  font-size: 1.77em;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  text-shadow: none;
+}
+.container p {
+  background-color: black;
+  float: left;
+  height: 90px;
+  padding: 3px;
+  position: absolute;
+  max-width: 100%;
+  text-align: justify;
+  top: 320px;
+}
+footer {
+  clear: both;
+  height: 50px;
+  padding: 10px 0px;
+  width: 100%;
+}
+.copyright {
+  float: left;
+  margin-left: 30px;
+}
+.desenvolvedor {
+  float: right;
+}
+/*configuraçao de imagens*/
+.container .sobreMim figure,
+.container .formacaoAcademica figure,
+.container .sobreMim figure {
+  width: 100%;
+
+  /*250px / 360px = resultado/*
+	/*resultado x 100 = resultado em %*/
+}
+img {
+  max-width: 100%;
+}
+/*começa o codigo da pagina galeria */
+.fotos {
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+}
+ul#albumFotos {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#albumFotos li {
+  float: left;
+  width: 40%;
+  height: 220px;
+  margin: 5px;
+  border: 5px solid #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.1s ease-in;
+}
+
+ul#albumFotos li span {
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.5em;
+  line-height: 370px;
+  padding: 2px;
+}
+ul#albumFotos li:hover span {
+  opacity: 1;
+}
+ul#albumFotos li:hover {
+  -webkit-transform: scale(1.5);
+}
+
+/*começa aqui o codigo do sobre mim */
+#photos {
+  width: 40%;
+  height: 45%;
+  max-width: 100%;
+}
+
+.sol .torre .mar {
+  width: 100%;
+  height: 500px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Arieal";
+}
+.sol {
+  background-color: #fcda92;
+}
+.torre {
+  background-color: #fcda92;
+}
+.mar {
+  background-color: #fcda92;
+}
+.form {
+  background-color: #fcda92;
+}
+#formatacao {
+  font-size: 20px;
+  font-family: "Arieal";
+  text-align: left;
+  color: black;
+  margin-left: 10px;
+}
+
+.container .sol figure img,
+.container .torre figure img,
+.container .mar figure img {
+  width: 62.25%;
+}
+iframe {
+  border: 4px solid #fff;
+}
+.form {
+  width: 90%;
+  height: 300x;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Arieal";
+  max-width: 490px;
+  margin-right: 150px;
+}
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #ffff00;
+  color: black;
+  font-weight: bold;
+}
+
+.enviar {
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+/*começa parte de medias screen parte de responsivo*/
+/*media screen 1200px */
+@media screen and (max-width: 1200px) {
+  .chamada h3 {
+    font-size: 1.66em;
+  }
+  .container h3 {
+    font-size: 1.55em;
+  }
+  .container p {
+    height: 170px;
+    top: 200px;
+  }
+  .chamada {
+    height: 290px;
+  }
+}
+
+/*medias para galeria*/
+
+@media screen and (max-width: 960px) {
+  header h1 a {
+    width: 37.5%;
+  }
+  nav {
+    width: 62.5%;
+  }
+  h2 {
+    font-size: 2.66em;
+  }
+  .sistema {
+    height: 250px;
+  }
+  .sistema h3 {
+    font-size: 1.5em;
+    width: 88.54%;
+  }
+  .container {
+    height: 425px;
+    padding: 3.12%;
+    width: 93.75%;
+  }
+}
